@@ -1,0 +1,22 @@
+# 1. сбор данных пользователя
+name = input("Ваше имя: ")
+age_str = input("Введите возраст: ")
+subjects_str = input("Любимые предметы (через запятую): ")
+
+# 2. преобразование типов
+age = int(age_str)
+
+# 3. создание словаря
+student = {
+    "name": name,
+    "age": age,
+    "subjects": subjects_str
+}
+# 4. оформление анкеты
+print("=" * 30)
+print("АНКЕТА СТУДЕНТА")
+print("=" * 30)
+print(f"Имя: {student['name']}")
+print(f"Возраст: {student['age']}")
+print(f"Любимые предметы: {student['subjects']}")
+print("=" * 30)
