@@ -1,0 +1,9 @@
+ishod = int(input("Введите число: "))
+thousands = ishod // 1000
+hundreds = (ishod // 100) % 10
+tents = (ishod // 10) % 10
+units = (ishod % 10) % 10
+print("Цифра в позиции тысяч равна ", thousands)
+print("Цифра в позиции сотен равна ", hundreds)
+print("Цифра в позиции десятков равна ", tents)
+print("Цифра в позиции единиц равна  ", units)
