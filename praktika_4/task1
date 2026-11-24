@@ -1,0 +1,8 @@
+import math
+x = float(input("ведите произвольное число: "))
+x_up = math.ceil(x)
+x_down = math.floor(x)
+sum = x_up + x_down
+print("потолок числа: ", x_up)
+print("пол числа: ", x_down)
+print("сумма данных чисел: ", sum)
