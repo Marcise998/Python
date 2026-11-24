@@ -1,0 +1,4 @@
+min = int(input("введите количество минут: "))
+hour = min // 60
+min2 = min % 60
+print("Час", hour, "минуты", min2)
